@@ -1,0 +1,444 @@
+GNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(No debugging symbols found in /usr/bin/python3.10)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libexpat.so.1)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libz.so.1)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/core/_multiarray_umath.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-7a851222.3.23.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libstdc++.so.6)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libgcc_s.so.1)
+(No debugging symbols found in .gnu_debugdata for /home/cwhowe/.local/lib/python3.10/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_contextvars.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/core/_multiarray_tests.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libffi.so.8)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/linalg/_umath_linalg.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/fft/_pocketfft_internal.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/mtrand.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/bit_generator.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_common.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libcrypto.so.3)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_bounded_integers.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_mt19937.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_philox.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_pcg64.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_sfc64.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/numpy/random/_generator.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/interval.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/hashtable.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/missing.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/dtypes.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/np_datetime.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/conversion.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/base.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/nattype.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/tzconversion.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/timezones.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_zoneinfo.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/parsing.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/offsets.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/timedeltas.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/fields.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/ccalendar.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/timestamps.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/properties.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_decimal.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libmpdec.so.3)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/period.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/vectorized.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/ops_dispatch.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/algos.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/lib.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslib.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/hashing.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/ops.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libbz2.so.1.0)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/liblzma.so.5)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/arrays.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/index.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/join.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/sparse.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/reduction.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/indexing.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/internals.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/writers.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/mmap.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/window/aggregations.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/window/indexers.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/reshape.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/tslibs/strptime.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/groupby.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.10/lib-dynload/_uuid.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libuuid.so.1)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/testing.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/parsers.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/pandas/_libs/json.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/_lib/_ccallback_c.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/_sparsetools.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/_csparsetools.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/linalg/_isolve/_iterative.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/linalg/_isolve/../../../../scipy.libs/libopenblasp-r0-23e5df77.3.21.dev.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_fblas.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_flapack.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_cythonized_array_utils.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/cython_lapack.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_solve_toeplitz.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_decomp_lu_cython.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_matfuncs_sqrtm_triu.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_matfuncs_expm.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/cython_blas.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_decomp_update.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/linalg/_flinalg.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/linalg/_dsolve/_superlu.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/linalg/_eigen/arpack/_arpack.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_tools.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_traversal.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_flow.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_matching.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/scipy/sparse/csgraph/_reordering.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PIL/_imaging.cpython-310-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PIL/../Pillow.libs/libjpeg-dab02bf4.so.62.3.0)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PIL/../Pillow.libs/libopenjp2-20e347f0.so.2.5.0)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PIL/../Pillow.libs/libtiff-189042a3.so.6.0.1)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PIL/../Pillow.libs/libxcb-cd9c1006.so.1.1.0)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PIL/../Pillow.libs/liblzma-9dd5c569.so.5.4.3)
+(No debugging symbols found in .gnu_debugdata for /home/cwhowe/.local/lib/python3.10/site-packages/PIL/../Pillow.libs/libXau-154567c4.so.6.0.0)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/QtCore.abi3.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Core.so.5)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libicui18n.so.56)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libicuuc.so.56)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libicudata.so.56)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libgthread-2.0.so.0)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libglib-2.0.so.0)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libpcre.so.3)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/QtGui.abi3.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Gui.so.5)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libGL.so.1)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libGLdispatch.so.0)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libGLX.so.0)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libX11.so.6)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libxcb.so.1)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libXau.so.6)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libXdmcp.so.6)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libbsd.so.0)
+(No debugging symbols found in /lib/x86_64-linux-gnu/libmd.so.0)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/QtWidgets.abi3.so)
+(No debugging symbols found in /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Widgets.so.5)
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+0x00007fa3a322549f in __GI___wait4 (pid=70763, stat_loc=stat_loc@entry=0x0, options=options@entry=0, usage=usage@entry=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:30
+
+Stack backtrace
+---------------
+    stat_loc=stat_loc@entry=0x0, options=options@entry=0, 
+    usage=usage@entry=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:30
+        sc_ret = -512
+        sc_cancel_oldtype = 0
+        sc_ret = <optimized out>
+#1  0x00007fa3a322541b in __GI___waitpid (pid=<optimized out>, 
+    stat_loc=stat_loc@entry=0x0, options=options@entry=0)
+    at ./posix/waitpid.c:38
+No locals.
+#2  0x00007fa3775e73f3 in print_enhanced_backtrace ()
+    at build/src/cysignals/implementation.c:586
+        parent_pid = 70722
+        pid = <optimized out>
+#3  0x00007fa3775e8a16 in sigdie (sig=sig@entry=6, 
+    s=s@entry=0x7fa3775f0af0 "Unhandled SIGABRT: An abort() occurred.")
+    at build/src/cysignals/implementation.c:612
+No locals.
+#4  0x00007fa3775ebe1f in sigdie_for_sig (inside=0, sig=6)
+    at build/src/cysignals/implementation.c:175
+No locals.
+#5  cysigs_signal_handler (sig=6) at build/src/cysignals/implementation.c:278
+        inside = <optimized out>
+#6  <signal handler called>
+No locals.
+#7  __pthread_kill_implementation (no_tid=0, signo=6, threadid=140340792369152)
+    at ./nptl/pthread_kill.c:44
+        tid = <optimized out>
+        ret = 0
+        pd = 0x7fa3a313a000
+        old_mask = {__val = {140727357299088, 140727357299216, 15, 
+            270582939708, 1, 0, 0, 511101108348, 395136991342, 
+            140727357299216, 140727357299384, 4789949602166934528, 937, 
+            4789949602166934528, 140727357299232, 140727357299248}}
+        ret = <optimized out>
+        pd = <optimized out>
+        old_mask = <optimized out>
+        ret = <optimized out>
+        tid = <optimized out>
+        ret = <optimized out>
+        resultvar = <optimized out>
+        resultvar = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+        __futex = <optimized out>
+        resultvar = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+        __futex = <optimized out>
+        __private = <optimized out>
+        __oldval = <optimized out>
+        result = <optimized out>
+#8  __pthread_kill_internal (signo=6, threadid=140340792369152)
+    at ./nptl/pthread_kill.c:78
+No locals.
+#9  __GI___pthread_kill (threadid=140340792369152, signo=signo@entry=6)
+    at ./nptl/pthread_kill.c:89
+No locals.
+#10 0x00007fa3a317d476 in __GI_raise (sig=sig@entry=6)
+    at ../sysdeps/posix/raise.c:26
+        ret = <optimized out>
+#11 0x00007fa3a31637f3 in __GI_abort () at ./stdlib/abort.c:79
+        save_stage = 1
+        act = {__sigaction_handler = {
+            sa_handler = 0x7fa3a3351600 <_IO_file_jumps>, 
+            sa_sigaction = 0x7fa3a3351600 <_IO_file_jumps>}, sa_mask = {
+            __val = {140340792893994, 140727357299232, 140727357299248, 
+              140340794579040, 140339235713076, 94136845942016, 
+              140727357299376, 94136845943056, 94136844088416, 
+              140727357299376, 3, 140727357300000, 140339235692387, 
+              9007336695791648, 18446744073709551544, 937}}, 
+          sa_flags = -1556788096, sa_restorer = 0x130}
+        sigs = {__val = {32, 913, 913, 94136845943056, 0, 140339238127515, 
+            390842024046, 4789949602166934528, 140727357299248, 
+            18446744073709551488, 2, 140340794579040, 0, 140339181252104, 
+            140727357299984, 140340794578592}}
+#12 0x00007fa3464929bc in QMessageLogger::fatal(char const*, ...) const ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Core.so.5
+No symbol table info available.
+#13 0x00007fa343367fa0 in QGuiApplicationPrivate::createPlatformIntegration()
+    ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Gui.so.5
+No symbol table info available.
+#14 0x00007fa3433682ad in QGuiApplicationPrivate::createEventDispatcher() ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Gui.so.5
+No symbol table info available.
+#15 0x00007fa3466a4fe3 in QCoreApplicationPrivate::init() ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Core.so.5
+No symbol table info available.
+#16 0x00007fa34336accc in QGuiApplicationPrivate::init() ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Gui.so.5
+No symbol table info available.
+#17 0x00007fa342367aa9 in QApplicationPrivate::init() ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/Qt5/lib/libQt5Widgets.so.5
+No symbol table info available.
+#18 0x00007fa342db932d in sipQApplication::sipQApplication(int&, char**, int)
+    ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/QtWidgets.abi3.so
+No symbol table info available.
+#19 0x00007fa342db940b in init_type_QApplication ()
+   from /home/cwhowe/.local/lib/python3.10/site-packages/PyQt5/QtWidgets.abi3.so
+No symbol table info available.
+#20 0x00007fa377ef58f2 in sipSimpleWrapper_init (self=0x7fa3421884c0, 
+    args=0x7fa3776cc3d0, kwds=0x0) at siplib.c:10018
+        parseErr = 0x0
+        unused_p = <optimized out>
+        sipNew = 0x0
+        sipFlags = -253276256
+        from_cpp = 1
+        owner = 0x0
+        wt = 0x559df139f660
+        td = 0x7fa343071d60 <sipTypeDef_QtWidgets_QApplication>
+        ctd = 0x7fa343071d60 <sipTypeDef_QtWidgets_QApplication>
+        unused = 0x0
+        final_func = 0x7fa346ee6270 <final_QObject>
+#21 0x0000559def13e58c in _PyObject_MakeTpCall ()
+No symbol table info available.
+#22 0x0000559def1371f1 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#23 0x0000559def14870c in _PyFunction_Vectorcall ()
+No symbol table info available.
+#24 0x0000559def1f4634 in ?? ()
+No symbol table info available.
+#25 0x0000559def13e5eb in _PyObject_MakeTpCall ()
+No symbol table info available.
+#26 0x0000559def136c66 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#27 0x0000559def13d784 in _PyObject_FastCallDictTstate ()
+No symbol table info available.
+#28 0x0000559def152744 in ?? ()
+No symbol table info available.
+#29 0x0000559def13e58c in _PyObject_MakeTpCall ()
+No symbol table info available.
+#30 0x0000559def136c66 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#31 0x0000559def1564e1 in ?? ()
+No symbol table info available.
+#32 0x0000559def1368a2 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#33 0x0000559def1564e1 in ?? ()
+No symbol table info available.
+#34 0x0000559def1368a2 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#35 0x0000559def1564e1 in ?? ()
+No symbol table info available.
+#36 0x0000559def1368a2 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#37 0x0000559def1564e1 in ?? ()
+No symbol table info available.
+#38 0x0000559def157192 in PyObject_Call ()
+No symbol table info available.
+#39 0x0000559def1332c1 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#40 0x0000559def14870c in _PyFunction_Vectorcall ()
+No symbol table info available.
+#41 0x0000559def157192 in PyObject_Call ()
+No symbol table info available.
+#42 0x0000559def1332c1 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#43 0x0000559def14870c in _PyFunction_Vectorcall ()
+No symbol table info available.
+#44 0x0000559def1332c1 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#45 0x0000559def14870c in _PyFunction_Vectorcall ()
+No symbol table info available.
+#46 0x0000559def1332c1 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#47 0x0000559def14870c in _PyFunction_Vectorcall ()
+No symbol table info available.
+#48 0x0000559def1368a2 in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#49 0x0000559def14870c in _PyFunction_Vectorcall ()
+No symbol table info available.
+#50 0x0000559def130e0d in _PyEval_EvalFrameDefault ()
+No symbol table info available.
+#51 0x0000559def221e56 in ?? ()
+No symbol table info available.
+#52 0x0000559def221cf6 in PyEval_EvalCode ()
+No symbol table info available.
+#53 0x0000559def24c7d8 in ?? ()
+No symbol table info available.
+#54 0x0000559def2460bb in ?? ()
+No symbol table info available.
+#55 0x0000559def24c525 in ?? ()
+No symbol table info available.
+#56 0x0000559def24ba08 in _PyRun_SimpleFileObject ()
+No symbol table info available.
+#57 0x0000559def24b653 in _PyRun_AnyFileObject ()
+No symbol table info available.
+#58 0x0000559def23e41e in Py_RunMain ()
+No symbol table info available.
+#59 0x0000559def214cad in Py_BytesMain ()
+No symbol table info available.
+#60 0x00007fa3a3164d90 in __libc_start_call_main (
+    main=main@entry=0x559def214c70, argc=argc@entry=2, 
+    argv=argv@entry=0x7ffda4247f98)
+    at ../sysdeps/nptl/libc_start_call_main.h:58
+        self = <optimized out>
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -5138888359207133143, 
+                140727357308824, 94136810163312, 94136813512728, 
+                140340796178496, 5139812288231219241, 5181468814711037993}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+#61 0x00007fa3a3164e40 in __libc_start_main_impl (main=0x559def214c70, argc=2, 
+    argv=0x7ffda4247f98, init=<optimized out>, fini=<optimized out>, 
+    rtld_fini=<optimized out>, stack_end=0x7ffda4247f88)
+    at ../csu/libc-start.c:392
+No locals.
+#62 0x0000559def214ba5 in _start ()
+No symbol table info available.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+Cython backtrace
+----------------
+#0  0x00007fa3a3225440 in __GI___wait4 () at ./posix/../sysdeps/unix/sysv/linux/wait4.c:30
+#1  0x00007fa3a3225410 in __GI___waitpid () at ./posix/./posix/waitpid.c:38
+#2  0x00007fa3775e7390 in print_enhanced_backtrace () at /project/build/src/cysignals/implementation.c:586
+#3  0x00007fa3775e89a0 in sigdie () at /project/build/src/cysignals/implementation.c:612
+#4  0x00007fa3775ebc0c in sigdie_for_sig () at /project/build/src/cysignals/implementation.c:175
+#5  0x00007fa3775ebbf0 in cysigs_signal_handler () at /project/build/src/cysignals/implementation.c:278
+#6  0x00007fa3a34c9070 in __restore_rt ()
+#7  0x00007fa3a31d198a in __pthread_kill_implementation () at ./nptl/./nptl/pthread_kill.c:44
+#8  0x00007fa3a31d198a in __pthread_kill_internal () at ./nptl/./nptl/pthread_kill.c:78
+#9  0x00007fa3a31d1950 in __GI___pthread_kill () at ./nptl/./nptl/pthread_kill.c:89
+#10 0x00007fa3a317d460 in __GI_raise () at ./signal/../sysdeps/posix/raise.c:26
+#11 0x00007fa3a3163720 in __GI_abort () at ./stdlib/./stdlib/abort.c:79
+#12 0x0000000000000000 in QMessageLogger::fatal(char const*, ...) const ()
+#13 0x0000000000000000 in QGuiApplicationPrivate::createPlatformIntegration() ()
+#14 0x0000000000000000 in QGuiApplicationPrivate::createEventDispatcher() ()
+#15 0x0000000000000000 in QCoreApplicationPrivate::init() ()
+#16 0x0000000000000000 in QGuiApplicationPrivate::init() ()
+#17 0x0000000000000000 in QApplicationPrivate::init() ()
+#18 0x0000000000000000 in sipQApplication::sipQApplication(int&, char**, int) ()
+#19 0x00007fa342db9350 in init_type_QApplication ()
+#20 0x00007fa377ef55b0 in sipSimpleWrapper_init () at /tmp/pip-req-build-9v60qpbx/siplib.c:10018
+#21 0x0000559def13e390 in _PyObject_MakeTpCall ()
+#22 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#23 0x0000559def148690 in _PyFunction_Vectorcall ()
+#24 0x0000000000000000 in ?? ()
+#25 0x0000559def13e390 in _PyObject_MakeTpCall ()
+#26 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#27 0x0000559def13d6c0 in _PyObject_FastCallDictTstate ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000559def13e390 in _PyObject_MakeTpCall ()
+#30 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000559def157070 in PyObject_Call ()
+#39 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#40 0x0000559def148690 in _PyFunction_Vectorcall ()
+#41 0x0000559def157070 in PyObject_Call ()
+#42 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#43 0x0000559def148690 in _PyFunction_Vectorcall ()
+#44 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#45 0x0000559def148690 in _PyFunction_Vectorcall ()
+#46 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#47 0x0000559def148690 in _PyFunction_Vectorcall ()
+#48 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#49 0x0000559def148690 in _PyFunction_Vectorcall ()
+#50 0x0000559def130750 in _PyEval_EvalFrameDefault ()
+#51 0x0000000000000000 in ?? ()
+#52 0x0000559def221c70 in PyEval_EvalCode ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x0000000000000000 in ?? ()
+#56 0x0000559def24b860 in _PyRun_SimpleFileObject ()
+#57 0x0000559def24b610 in _PyRun_AnyFileObject ()
+#58 0x0000559def23e160 in Py_RunMain ()
+#59 0x0000559def214c80 in Py_BytesMain ()
+#60 0x00007fa3a3164d10 in __libc_start_call_main () at ./csu/../sysdeps/nptl/libc_start_call_main.h:58
+#61 0x00007fa3a3164dc0 in __libc_start_main_impl () at ./csu/../csu/libc-start.c:392
+#62 0x0000559def214b80 in _start ()
+
+[Inferior 1 (process 70722) detached]
+30	../sysdeps/unix/sysv/linux/wait4.c: No such file or directory.
+Install pygments for colorized source code.
