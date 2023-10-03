@@ -360,6 +360,7 @@ def setup_network(num_nodes, node_distance, source_frequency):
         nodes.append(Node(f"Node_{i:0{num_zeros}d}", qmemory=create_qprocessor(f"qproc_{i}")))
     network.add_nodes(nodes)
     # Create quantum and classical connections:
+    """
     for i in range(num_nodes - 1):
         
      # ADD RANDOM DISTANCES ------------------------------------------------------------------------ 
@@ -372,11 +373,20 @@ def setup_network(num_nodes, node_distance, source_frequency):
     # ADD RANDOM DISTANCES -------------------------------------------------------------------------
     
         node, node_right = nodes[i], nodes[i + 1]
+    """
         # Create quantum connection
-        qconn = EntanglingConnection(name=f"qconn_{i}-{i+1}", length=node_distance,
+    
+    """
+    qconn = EntanglingConnection(name=f"qconn_{i}-{i+1}", length=node_distance,
                                      source_frequency=source_frequency)
+    """
         # Add a noise model which depolarizes the qubits exponentially
         # depending on the connection length
+    for i in range(num_nodes - 1):
+        node_distance += 3
+        node, node_right = nodes[i], nodes[i + 1]
+        qconn = EntanglingConnection(name=f"qconn_{i}-{i+1}", length=node_distance,
+                                     source_frequency=source_frequency)
         for channel_name in ['qchannel_C2A', 'qchannel_C2B']:
             qconn.subcomponents[channel_name].models['quantum_noise_model'] =\
                 FibreDepolarizeModel()
@@ -396,7 +406,7 @@ def setup_network(num_nodes, node_distance, source_frequency):
             node.ports["ccon_L"].bind_input_handler(
                 lambda message, _node=node: _node.ports["ccon_R"].tx_output(message))
         
-        node_distance = node_distance - random_number
+        #node_distance = node_distance - random_number
         #print(node_distance)
     return network
 
@@ -502,20 +512,23 @@ def create_plot(num_iters=2000):
     """
     from matplotlib import pyplot as plt
     fig, ax = plt.subplots()
-    for distance in [1300]:
+    for distance in [10]:
         data = pandas.DataFrame()
-        for num_node in range(3, 20):
-            data[num_node] = run_simulation(num_nodes=num_node,
+        #for num_node in range(3,4):
+        num_node = 3
+        data[num_node] = run_simulation(num_nodes=num_node,
                                             node_distance=distance / num_node,
                                             num_iters=num_iters)['fidelity']
+        print(data[num_node])
         # For errorbars we use the standard error of the mean (sem)
+    """
         data = data.agg(['mean', 'sem']).T.rename(columns={'mean': 'fidelity'})
         data.plot(y='fidelity', yerr='sem', label=f"{distance} km", ax=ax)
     plt.xlabel("number of nodes")
     plt.ylabel("fidelity")
     plt.title("Repeater chain with different total lengths")
     plt.show()
-
+    """
 
 class FibreDepolarizeModel(QuantumErrorModel):
     """Custom non-physical error model used to show the effectiveness
