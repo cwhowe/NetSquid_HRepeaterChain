@@ -165,8 +165,8 @@ def setup_network(num_nodes, node_distance, source_frequency):
         # Prepend leading zeros to the node index for consistent naming
         num_zeros = int(np.log10(num_nodes)) + 1
         node = Node(f"Node_{i:0{num_zeros}d}", qmemory=create_qprocessor(f"qproc_{i}"))
-        network.add_node(node)
         nodes.append(node)
+    network.add_nodes(nodes)
 
     # Create connections from the central node to all other nodes
     for node in nodes:
@@ -174,22 +174,28 @@ def setup_network(num_nodes, node_distance, source_frequency):
         qconn = EntanglingConnection(name=f"qconn_Central-{node.name}", length=node_distance, source_frequency=source_frequency)
         
         # Add the quantum connection to the network
-        network.add_connection(central_node, node, connection=qconn, label="quantum")
+        #network.add_connection(central_node, node, connection=qconn, label="quantum")
         # Forward qconn directly to quantum memories for node's input
-        central_node.ports["qin0"].forward_input(qconn.ports["qA"])
-        node.ports["qin1"].forward_input(qconn.ports["qB"])
+        #central_node.ports["qin0"].forward_input(qconn.ports["qA"])
+        #node.ports["qin1"].forward_input(qconn.ports["qB"])
+        
+        port_name, port_r_name = network.add_connection(
+            node, central_node, connection=qconn, label="quantum")
+        
+        node.ports[port_name].forward_input(node.qmemory.ports["qin0"])  # R input
+        central_node.ports[port_r_name].forward_input(
+            central_node.qmemory.ports["qin1"])  # L input
 
-        # Create a classical connection from central_node to node
-        cconn = ClassicalConnection(name=f"cconn_Central-{node.name}", length=node_distance)
-
-        # Add the classical connection to the network
-        network.add_connection(central_node, node, connection=cconn, label="classical",
-                               port_name_node1=f"ccon_Central", port_name_node2=f"ccon_{i}")
-
-        # Forward cconn to the node
-        central_node.ports[f"ccon_{i}"].bind_input_handler(
-            lambda message, _node=node: _node.ports[f"ccon_Central"].tx_output(message))
-
+       # Create classical connection
+        cconn = ClassicalConnection(name=f"cconn_{i}-{i+1}", length=node_distance)
+        port_name, port_r_name = network.add_connection(
+            node, central_node, connection=cconn, label="classical",
+            port_name_node1="ccon_R", port_name_node2="ccon_L")
+        # Forward cconn to right most node
+        if "ccon_L" in node.ports:
+            node.ports["ccon_L"].bind_input_handler(
+                lambda message, _node=node: _node.ports["ccon_R"].tx_output(message))
+        print("connection 1")
     # Add CorrectProtocol to the central node
     correct_protocol = CorrectProtocol(central_node, num_nodes)
     central_node.add_subcomponent(correct_protocol)
